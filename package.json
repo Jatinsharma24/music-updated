@@ -25,7 +25,7 @@
     "pretty-ms": "^7.0.1",
     "soundcloud-scraper": "^4.0.3",
     "spotify-url-info": "^2.2.0",
-    "youtube-sr": "^3.0.0",
+    "youtube-sr": "^3.0.4",
     "ytdl-core": "^4.4.5"
   },
   "engines": {
