@@ -2,7 +2,7 @@ const { OwnerID } = require("../../config.js");
 
 module.exports.run = (client, message, args, Discord) => {
   const Link = `https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot`,
-    Owner = `<@${OwnerID || "714396969216507966"}>`,
+    Owner = `<@${OwnerID || "810426022323290122"}>`,
     Developer = "❀SUNSHINE❀#5158";
 
   const Embed = new Discord.MessageEmbed()
@@ -14,7 +14,6 @@ module.exports.run = (client, message, args, Discord) => {
       })
     )
     .addField("Link", `[Click Me](${Link})`, true)
-    .addField("", true)
     .addField("Owner", Owner, true)
     .addField("Developer", Developer, true)
     .setFooter(`Requested By ${message.author.username}`)

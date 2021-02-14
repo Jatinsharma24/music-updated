@@ -5,4 +5,4 @@ exports.Color = "RANDOM";
 /* Your Bot Token (Secret) */
 exports.Token = "ODEwNDI2MDIyMzIzMjkwMTIy.YCjeDA.xx0U_-TAMlLlyA-RTDLQIv_l0xM";
 /* Bot's Owner ID */
-exports.OwnerID = "714396969216507966";
+exports.OwnerID = "810426022323290122";
