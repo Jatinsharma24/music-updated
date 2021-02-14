@@ -3,7 +3,7 @@ const { OwnerID } = require("../../config.js");
 module.exports.run = (client, message, args, Discord) => {
   const Link = `https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot`,
     Owner = `<@${OwnerID || "810426022323290122"}>`,
-    Developer = "❀SUNSHINE❀#5158";
+    Developer = "❀SUNSHINE❀#5158 and ΛLΩNΞ BΩY™#8223";
 
   const Embed = new Discord.MessageEmbed()
     .setColor(client.Color)

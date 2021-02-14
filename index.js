@@ -43,7 +43,7 @@ Categories.forEach(Category => {
 Client.on("ready", async () => {
   console.clear();
   console.log(`Bot Is Ready To Play Music - ${Client.user.username}`);
-  Client.user.setActivity("BOT BY SUNSHINE#5158 ❤️", { type: "PLAYING" });
+  Client.user.setActivity("HIGH QUALITY MUSIC | g.help ❤️", { type: "PLAYING" });
   const Key = await SC.keygen();
   Client.SC = new SC.Client(Key);
 });
