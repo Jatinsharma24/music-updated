@@ -104,7 +104,7 @@ module.exports.run = async (client, message, args, Discord) => {
 };
 
 module.exports.help = {
-  name: "helpmusic",
+  name: "help",
   aliases: ["h"],
   cooldown: 5000,
   category: "Other",
