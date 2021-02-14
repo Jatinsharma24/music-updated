@@ -1,5 +1,5 @@
 /* Your Bot Default Prefix For Every Server */
-exports.Default_Prefix = "M,";
+exports.Default_Prefix = ",";
 /* Your Bot All Embeds Color */
 exports.Color = "RANDOM";
 /* Your Bot Token (Secret) */
